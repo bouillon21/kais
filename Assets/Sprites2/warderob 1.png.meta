@@ -1,0 +1,746 @@
+fileFormatVersion: 2
+guid: 01b0eda2f76154343a93671f76ec11d5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2950802388205767106
+    second: warderob 1_0
+  - first:
+      213: -6508861318498827810
+    second: warderob 1_1
+  - first:
+      213: 1470186025363135063
+    second: warderob 1_2
+  - first:
+      213: 4599733079245815795
+    second: warderob 1_3
+  - first:
+      213: -5583021567548590825
+    second: warderob 1_4
+  - first:
+      213: 412965764578452898
+    second: warderob 1_5
+  - first:
+      213: -2480737454423170335
+    second: warderob 1_6
+  - first:
+      213: -6202517997091774822
+    second: warderob 1_7
+  - first:
+      213: 399448911618305817
+    second: warderob 1_8
+  - first:
+      213: -6457766486388820978
+    second: warderob 1_9
+  - first:
+      213: -1524103550762894424
+    second: warderob 1_10
+  - first:
+      213: 7293961389990654903
+    second: warderob 1_11
+  - first:
+      213: -7020184448136632129
+    second: warderob 1_12
+  - first:
+      213: -8373556373206314629
+    second: warderob 1_13
+  - first:
+      213: -7645678142803892588
+    second: warderob 1_14
+  - first:
+      213: -6154141912983183557
+    second: warderob 1_15
+  - first:
+      213: 5382043088191078931
+    second: warderob 1_16
+  - first:
+      213: 2814306296659409332
+    second: warderob 1_17
+  - first:
+      213: -2974983318381185970
+    second: warderob 1_18
+  - first:
+      213: -8671070595053367693
+    second: warderob 1_19
+  - first:
+      213: -704535762702185990
+    second: warderob 1_20
+  - first:
+      213: 908305209451045549
+    second: warderob 1_21
+  - first:
+      213: 6811980024918599760
+    second: warderob 1_22
+  - first:
+      213: 3852512163286756806
+    second: warderob 1_23
+  - first:
+      213: -5652599233161867998
+    second: warderob 1_24
+  - first:
+      213: -1811799492249109906
+    second: warderob 1_25
+  - first:
+      213: -4517997335953287601
+    second: warderob 1_26
+  - first:
+      213: -8746240530371065117
+    second: warderob 1_27
+  - first:
+      213: -8103191669985748292
+    second: warderob 1_28
+  - first:
+      213: -5053725559722895013
+    second: warderob 1_29
+  - first:
+      213: -7386462714731597452
+    second: warderob 1_30
+  - first:
+      213: -418292412228096447
+    second: warderob 1_31
+  - first:
+      213: 6670935924801440523
+    second: warderob 1_32
+  - first:
+      213: 768397508022233563
+    second: warderob 1_33
+  - first:
+      213: 5024585813085753710
+    second: warderob 1_34
+  - first:
+      213: 2782708760427717097
+    second: warderob 1_35
+  - first:
+      213: -7974699341719529435
+    second: warderob 1_36
+  - first:
+      213: -6412707263437269189
+    second: warderob 1_37
+  - first:
+      213: -392814244261259710
+    second: warderob 1_38
+  - first:
+      213: 4621967965627973035
+    second: warderob 1_39
+  - first:
+      213: -2605378301656407812
+    second: warderob 1_40
+  - first:
+      213: 4490142303841019220
+    second: warderob 1_41
+  - first:
+      213: 4132099023229937657
+    second: warderob 1_42
+  - first:
+      213: 2921345562563190326
+    second: warderob 1_43
+  - first:
+      213: 1402791611217555338
+    second: warderob 1_44
+  - first:
+      213: -3802605619825894466
+    second: warderob 1_45
+  - first:
+      213: -1206190673511631884
+    second: warderob 1_46
+  - first:
+      213: 1359419527857907599
+    second: warderob 1_47
+  - first:
+      213: -6721778411236800776
+    second: warderob 1_48
+  - first:
+      213: 6007208240967618046
+    second: warderob 1_49
+  - first:
+      213: -2816323285481228000
+    second: warderob 1_50
+  - first:
+      213: -8967676173746726426
+    second: warderob 1_51
+  - first:
+      213: -175857712093692849
+    second: warderob 1_52
+  - first:
+      213: 6718165215636154436
+    second: warderob 1_53
+  - first:
+      213: -3689031027958894617
+    second: warderob 1_54
+  - first:
+      213: -5943407482079856349
+    second: warderob 1_55
+  - first:
+      213: 4651456500323217242
+    second: warderob 1_56
+  - first:
+      213: 6676508878414839087
+    second: warderob 1_57
+  - first:
+      213: 4511186399865339662
+    second: warderob 1_58
+  - first:
+      213: -6066107008513031023
+    second: warderob 1_59
+  - first:
+      213: -1802963731864501514
+    second: warderob 1_60
+  - first:
+      213: -773186151046931258
+    second: warderob 1_61
+  - first:
+      213: 941867326626228120
+    second: warderob 1_62
+  - first:
+      213: -1452490529454198888
+    second: warderob 1_63
+  - first:
+      213: 7831022234974820367
+    second: warderob 1_64
+  - first:
+      213: 4958932466187501130
+    second: warderob 1_65
+  - first:
+      213: -4977425371602857929
+    second: warderob 1_66
+  - first:
+      213: 5809572052903996145
+    second: warderob 1_67
+  - first:
+      213: -8788129060686185637
+    second: warderob 1_68
+  - first:
+      213: 7437354181900950716
+    second: warderob 1_69
+  - first:
+      213: -7270420552676697147
+    second: warderob 1_70
+  - first:
+      213: -5963329558986645060
+    second: warderob 1_71
+  - first:
+      213: 2135809277806284020
+    second: warderob 1_72
+  - first:
+      213: -5701064932428050247
+    second: warderob 1_73
+  - first:
+      213: -3184738385317320916
+    second: warderob 1_74
+  - first:
+      213: -1589971825357313955
+    second: warderob 1_75
+  - first:
+      213: -1067248819129772622
+    second: warderob 1_76
+  - first:
+      213: -4081170382140525531
+    second: warderob 1_77
+  - first:
+      213: -413107205627761969
+    second: warderob 1_78
+  - first:
+      213: 3235208470802301028
+    second: warderob 1_79
+  - first:
+      213: -8809997912493470647
+    second: warderob 1_80
+  - first:
+      213: 4853626934912206769
+    second: warderob 1_81
+  - first:
+      213: 7369942121231897236
+    second: warderob 1_82
+  - first:
+      213: 1404076711018513301
+    second: warderob 1_83
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: warderob 1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36fe98acd4ac07d0800000000000000
+      internalID: -2950802388205767106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1c892cd11eba5a0800000000000000
+      internalID: -6508861318498827810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a53839666276410800000000000000
+      internalID: 1470186025363135063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff7f0a7dd885df30800000000000000
+      internalID: 4599733079245815795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715fbe4e67f1582b0800000000000000
+      internalID: -5583021567548590825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5a816cc262bb500800000000000000
+      internalID: 412965764578452898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2a910cd66a29dd0800000000000000
+      internalID: -2480737454423170335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e90667eba3ce9a0800000000000000
+      internalID: -6202517997091774822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fece23ba02b8500800000000000000
+      internalID: 399448911618305817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_9
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e043f5868976166a0800000000000000
+      internalID: -6457766486388820978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abbdd745eb49dae0800000000000000
+      internalID: -1524103550762894424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 58
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3bec73d3b593560800000000000000
+      internalID: 7293961389990654903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 26
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8281f507b439e90800000000000000
+      internalID: -7020184448136632129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 26
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b715454f7d62bcb80800000000000000
+      internalID: -8373556373206314629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 26
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496a437dc3815e590800000000000000
+      internalID: -7645678142803892588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 26
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f5b434988189aa0800000000000000
+      internalID: -6154141912983183557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 26
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312c9756cabd0ba40800000000000000
+      internalID: 5382043088191078931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warderob 1_17
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 26
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9778d7aac6e0720800000000000000
+      internalID: 2814306296659409332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
