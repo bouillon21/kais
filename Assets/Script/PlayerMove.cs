@@ -26,8 +26,8 @@ public class PlayerMove : MonoBehaviour
     void Walk()
     {
         moveVector.x = Input.GetAxis("Horizontal");
-        anim.SetFloat("moveX", Mathf.Abs(moveVector.x));
         rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
+        anim.SetFloat("moveX", Mathf.Abs(moveVector.x));
     }
 
     void Flip()
