@@ -8,8 +8,9 @@ public class PMove : MonoBehaviour
     public Vector2 moveVector;
     public Animator anim;
     public SpriteRenderer sr;
+
     public float speed = 2;
-    //public int directionInput;
+    public float directionInput;
     public bool faceRigh = true;
 
     void Start()
@@ -27,19 +28,24 @@ public class PMove : MonoBehaviour
 
     void Walk()
     {
-        moveVector.x = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
-        anim.SetFloat("moveX", Mathf.Abs(moveVector.x));
+        rb.velocity = new Vector2(directionInput * speed, rb.velocity.y);
+        anim.SetFloat("moveX", Mathf.Abs(directionInput));
+    }
+
+    public void Move(int InputAxis)
+    {
+        if (InputAxis != 0)
+            directionInput = InputAxis;
+        else
+            directionInput = Input.GetAxis("Horizontal");
     }
 
     void Flip()
     {
-        if ((moveVector.x > 0 && !faceRigh) || (moveVector.x < 0 && faceRigh))
+        if ((directionInput > 0 && !faceRigh) || (directionInput < 0 && faceRigh))
         {
             transform.localScale *= new Vector2(-1, 1);
             faceRigh = !faceRigh;
         }
-
-        //sr.flipX = moveVector.x < 0;
     }
 }
