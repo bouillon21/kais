@@ -9,7 +9,7 @@ public class PMove : MonoBehaviour
     public Animator anim;
     public SpriteRenderer sr;
 
-    public float speed = 2;
+    public float speed = 6;
     public float directionInput;
     public bool faceRigh = true;
 
@@ -34,10 +34,7 @@ public class PMove : MonoBehaviour
 
     public void Move(int InputAxis)
     {
-        if (InputAxis != 0)
-            directionInput = InputAxis;
-        else
-            directionInput = Input.GetAxis("Horizontal");
+        directionInput = InputAxis;
     }
 
     void Flip()

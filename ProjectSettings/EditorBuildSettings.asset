@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hall.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/2floor.unity
+    guid: fcad2ff5a9a479440b4738e3942b0e23
   m_configObjects: {}
