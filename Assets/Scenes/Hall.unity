@@ -325,6 +325,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1465739535}
+  SwitchScene: {fileID: 1676018081}
+  Scene: 1
 --- !u!20 &519420031 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 2576856047586056606, guid: 7bda6df016542304b8d5e78915fec415,
@@ -1455,6 +1457,12 @@ PolygonCollider2D:
     type: 3}
   m_PrefabInstance: {fileID: 6712603059122727862}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1676018081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6967470233571230560, guid: d66d90762ea1fa946a12aa6d0d0cb63f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6967470234788508288}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1721376002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,7 +1631,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 6967470234788508288}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1676018081}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 452abbc3ecac0ee4cbd7e4254317d0bd, type: 3}
@@ -1721,6 +1729,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1003547222696942216, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_Name
+      value: ActionButton
+      objectReference: {fileID: 0}
     - target: {fileID: 1003547222696942220, guid: 46c2886b79933e949bfa29d19b1fba95,
         type: 3}
       propertyPath: m_Camera
@@ -1803,6 +1816,11 @@ PrefabInstance:
       objectReference: {fileID: 1142701420}
     - target: {fileID: 1003547223293572692, guid: 46c2886b79933e949bfa29d19b1fba95,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003547223293572692, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2024944101}
@@ -1810,6 +1828,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: switchScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003547223293572694, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_Name
+      value: Button
       objectReference: {fileID: 0}
     - target: {fileID: 1003547223374383987, guid: 46c2886b79933e949bfa29d19b1fba95,
         type: 3}
