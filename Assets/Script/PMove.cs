@@ -12,9 +12,11 @@ public class PMove : MonoBehaviour
     public float speed = 6;
     public float directionInput;
     public bool faceRigh = true;
+    public PlayerSave pos;
 
     void Start()
     {
+        //transform.position = pos.pos;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
