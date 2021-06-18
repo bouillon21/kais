@@ -8,9 +8,16 @@ public class SwitchScene : MonoBehaviour
     public Animator anim;
     public int SceneToLoad;
 
-    public void switchScene()
+    public void switchScene(int lvl)
     {
+        if (lvl > 0)
+            SceneToLoad = lvl;
         anim.Play("FadeOn");
         SceneManager.LoadScene(SceneToLoad);
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
     }
 }

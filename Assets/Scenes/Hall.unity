@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &85776960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1003547223293572694, guid: 46c2886b79933e949bfa29d19b1fba95,
+    type: 3}
+  m_PrefabInstance: {fileID: 1003547222373261146}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &173836499
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,8 +331,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1465739535}
+  Button: {fileID: 85776960}
   SwitchScene: {fileID: 1676018081}
-  Scene: 1
+  Title: "\u041F\u043E\u0434\u043D\u044F\u0442\u044C\u0441\u044F \u043D\u0430 \u0432\u0442\u043E\u0440\u043E\u0439
+    \u044D\u0442\u0430\u0436"
+  Scene: 2
 --- !u!20 &519420031 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 2576856047586056606, guid: 7bda6df016542304b8d5e78915fec415,
@@ -1817,7 +1826,7 @@ PrefabInstance:
     - target: {fileID: 1003547223293572692, guid: 46c2886b79933e949bfa29d19b1fba95,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1003547223293572692, guid: 46c2886b79933e949bfa29d19b1fba95,
         type: 3}
@@ -1829,10 +1838,25 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: switchScene
       objectReference: {fileID: 0}
+    - target: {fileID: 1003547223293572692, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 1003547223293572694, guid: 46c2886b79933e949bfa29d19b1fba95,
         type: 3}
       propertyPath: m_Name
       value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003547223293572695, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0000019073
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003547223293572695, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1003547223374383987, guid: 46c2886b79933e949bfa29d19b1fba95,
         type: 3}
