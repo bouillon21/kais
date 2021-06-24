@@ -220,6 +220,8 @@ GameObject:
   m_Component:
   - component: {fileID: 155798041}
   - component: {fileID: 155798042}
+  - component: {fileID: 155798044}
+  - component: {fileID: 155798043}
   m_Layer: 0
   m_Name: "\u043A\u0430\u0431 2"
   m_TagString: Untagged
@@ -292,6 +294,49 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &155798043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155798040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe0722ae5de594448f121c868b2eeb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 536833874}
+  SwitchScene: {fileID: 433171184}
+  Title: "\u0414\u0432\u0435\u0440\u044C \u043F\u043B\u043E\u0445\u043E\u0433\u043E
+    \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u044F "
+  Scene: 0
+--- !u!61 &155798044
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155798040}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.5893748}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.90625, y: 2.9375}
+    newSize: {x: 1.90625, y: 2.9375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.90625, y: 4.116249}
+  m_EdgeRadius: 0
 --- !u!1 &183590172
 GameObject:
   m_ObjectHideFlags: 0

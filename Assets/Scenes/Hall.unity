@@ -330,7 +330,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfe0722ae5de594448f121c868b2eeb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 1465739535}
   Button: {fileID: 85776960}
   SwitchScene: {fileID: 1676018081}
   Title: "\u041F\u043E\u0434\u043D\u044F\u0442\u044C\u0441\u044F \u043D\u0430 \u0432\u0442\u043E\u0440\u043E\u0439
@@ -613,6 +612,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1215193642}
   - component: {fileID: 1215193641}
+  - component: {fileID: 1215193644}
+  - component: {fileID: 1215193643}
   m_Layer: 0
   m_Name: "\u0441\u0442\u0443\u0434\u0441\u043E\u0432\u0435\u0442"
   m_TagString: Untagged
@@ -685,6 +686,48 @@ Transform:
   m_Father: {fileID: 1418838864}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1215193643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215193640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe0722ae5de594448f121c868b2eeb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Button: {fileID: 85776960}
+  SwitchScene: {fileID: 1676018081}
+  Title: "\u0412\u044B\u0445\u043E\u0434"
+  Scene: 0
+--- !u!61 &1215193644
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215193640}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.5320611}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.90625, y: 2.9375}
+    newSize: {x: 1.90625, y: 2.9375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.90625, y: 4.001622}
+  m_EdgeRadius: 0
 --- !u!1 &1313807514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,12 +1491,6 @@ Transform:
   m_Father: {fileID: 1586419757}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1465739535 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 1003547223293572693, guid: 46c2886b79933e949bfa29d19b1fba95,
-    type: 3}
-  m_PrefabInstance: {fileID: 1003547222373261146}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1586419757 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6712603057755730843, guid: 2026abe16e1e2d14ca981de6569b8029,
@@ -1868,6 +1905,31 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1142701420}
+    - target: {fileID: 4506633351172938448, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4506633351172938448, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2024944101}
+    - target: {fileID: 4506633351172938448, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: switchScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4506633351172938448, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4506633351172938448, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46c2886b79933e949bfa29d19b1fba95, type: 3}
 --- !u!1001 &2576856047815401953

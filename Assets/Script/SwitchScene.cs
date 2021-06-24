@@ -12,6 +12,8 @@ public class SwitchScene : MonoBehaviour
     {
         if (lvl > 0)
             SceneToLoad = lvl;
+        else if (lvl == -1 || SceneToLoad == -1)
+            Exit();
         anim.Play("FadeOn");
         SceneManager.LoadScene(SceneToLoad);
     }
