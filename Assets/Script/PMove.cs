@@ -12,7 +12,6 @@ public class PMove : MonoBehaviour
     public float speed = 6;
     public float directionInput;
     public bool faceRigh = true;
-    public PlayerSave pos;
 
     void Start()
     {

@@ -279,7 +279,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 8429819340835548219, guid: b6a28b2016228a641a09a054c7cbba15,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -615,7 +615,7 @@ MonoBehaviour:
   SwitchScene: {fileID: 433171184}
   Title: "\u0417\u0430\u0439\u0442\u0438 \u0432 \u043A\u0430\u0431\u0438\u043D\u0435\u0442
     \u21161"
-  Scene: 2
+  Scene: 3
 --- !u!61 &1405882877
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -680,7 +680,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 8429819340835548219, guid: b6a28b2016228a641a09a054c7cbba15,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1046,6 +1046,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Move
+      objectReference: {fileID: 0}
+    - target: {fileID: 4506633351172938448, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4506633351172938448, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1681771438}
+    - target: {fileID: 4506633351172938448, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: switchScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 4506633351172938448, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4506633351172938448, guid: 46c2886b79933e949bfa29d19b1fba95,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46c2886b79933e949bfa29d19b1fba95, type: 3}

@@ -9,6 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 817cc6d970af9ee4da24a8eec4dcf201, type: 3}
-  m_Name: Player Save
+  m_Script: {fileID: 11500000, guid: 3d5c36d6b40b0a2458e66d535b677e88, type: 3}
+  m_Name: pSave
   m_EditorClassIdentifier: 
+  title: 
+  points: 0

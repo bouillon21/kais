@@ -5,5 +5,6 @@ using UnityEngine;
 [CreateAssetMenu]
 public class PlayerSave : ScriptableObject
 {
-    public Vector3 pos;  
+    public string title;
+    public int points;
 }
